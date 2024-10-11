@@ -24,9 +24,9 @@
   }
    
   h1 {
-    font-size: 48px;
-    color: #ffcb05;
-    font-family: 'Pokemon', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Pokemon', Pixelify Sans;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
@@ -77,79 +77,93 @@
    
   .card.grass {
     border-left: 5px solid #78C850;
+    background: linear-gradient(to top, #78C850, transparent);
   }
    
   .card.fire {
     border-left: 5px solid #F08030;
+    background: linear-gradient(to top, #F08030, transparent);
   }
    
   .card.water {
     border-left: 5px solid #6890F0;
+    background: linear-gradient(to top, #6890F0, transparent);
   }
    
   .card.electric {
     border-left: 5px solid #F8D030;
+    background: linear-gradient(to top, #F8D030, transparent);
   }
    
   .card.rock {
     border-left: 5px solid #B8A038;
+    background: linear-gradient(to top, #B8A038, transparent);
   }
    
   .card.psychic {
     border-left: 5px solid #F85888;
+    background: linear-gradient(to top, #F85888, transparent);
   }
    
   .card.ghost {
     border-left: 5px solid #705898;
+    background: linear-gradient(to top, #705898, transparent);
   }
    
   .card.dragon {
     border-left: 5px solid #7038F8;
+    background: linear-gradient(to top, #7038F8, transparent);
   }
    
   .card.dark {
     border-left: 5px solid #705848;
+    background: linear-gradient(to top, #705848, transparent);
   }
    
   .card.fairy {
     border-left: 5px solid #EE99AC;
+    background: linear-gradient(to top, #EE99AC, transparent);
   }
    
   .card.bug{
       border-left: 5px solid #8c7209;
+      background: linear-gradient(to top, #8c7209, transparent);
   }
    
   .card.poison{
       border-left: 5px solid #8e5ffc;
+      background: linear-gradient(to top, #8e5ffc, transparent);
   }
    
   .card.normal{
       border-left: 5px solid #979595;
+      background: linear-gradient(to top, #979595, transparent);
   }
    
   .card.ground{
       border-left: 5px solid #594701;
+      background: linear-gradient(to top, #594701, transparent);
   }
    
   .card.fighting{
       border-left: 5px solid #fd6f6f;
+      background: linear-gradient(to top, #fd6f6f, transparent);
   }
    
   .card.ice{
       border-left: 5px solid #7ca1f8;
+      background: linear-gradient(to top, #7ca1f8, transparent);
   }
    
   .card.steel{
       border-left: 5px solid rgb(135, 135, 135) ;
+      background: linear-gradient(to top, rgb(135, 135, 135), transparent);
   }
    
    
    
    
-   
-  .card-image {
-    animation: shake 1.5s infinite;
-  }
+
    
   @keyframes shake {
     0%, 100% {
@@ -176,10 +190,11 @@
     }
    
     .card img {
-      height: 180px;
+      height: 200px;
     }
    
     .card-title {
-      font-size: 18px;
+      font-size: 20px;
+    
     }
   }
